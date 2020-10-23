@@ -1,7 +1,5 @@
 <template>
   <div id="app">
-    <NavBar className="nav-bar" @run-search="runSearching"/>
-        <b-spinner v-if="loadingData" class="loader" variant="primary" type="grow" label="Spinning"></b-spinner>
 
 
     <!-- <div id="nav">
@@ -13,5 +11,9 @@
   </div>
 </template>
 
-<script src="./App.js"></script>
+<script>
+  export default {
+    name: 'App',
+  }
+</script>
 <style src="./App.css"></style>
