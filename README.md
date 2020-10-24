@@ -1,5 +1,10 @@
 # That Cocktail!
 
+
+  ###### Screenshot 1: *Landing Page*
+<kbd>![Uploading Screen Shot 2020-10-24 at 2.55.06 PM.png…]()
+<br>
+
 ## Project setup
 ```
 npm install
