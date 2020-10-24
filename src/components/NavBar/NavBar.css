@@ -1,0 +1,37 @@
+h3 {
+    margin: 40px 0 0;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  a {
+    color: #dfece6;
+  }
+  
+  .logo {
+    font-family: "Dancing Script", cursive;
+    color: rgb(209, 38, 38);
+    margin: 0;
+  }
+  
+  .logo-that {
+    color: #ed9702;
+  }
+  
+  .navbar-nav {
+    align-items: center;
+  }
+  
+  .form-control-sm {
+    margin-left: 8px;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: #ffffff;
+  }

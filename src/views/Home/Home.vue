@@ -25,11 +25,19 @@
       </b-card-group>
     </div>
     <div v-else>No Cocktails Found, Sorry!</div>
-    <img
-      class="background-img"
-      src="../../assets/home-page-background.jpg"
-      alt="Background"
-    />
+    <div :class="computedClass">
+      <div class="home-page-note">
+        <p>Looking for</p>
+        <p></p>
+        <p class="home-page-note-that-cocktail">That Coocktail?</p>
+        <p>Start Serching!</p>
+      </div>
+      <img
+        class="home-page-background-img"
+        alt="Background cocktail"
+        src="../../assets/home-page-background.jpg"
+      />
+    </div>
   </div>
 </template>
 

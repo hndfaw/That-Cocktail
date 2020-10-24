@@ -25,6 +25,9 @@ export default {
 
       this.ingredients = processedIngredients;
       this.cocktail = singleCocktail;
+    },
+    goBack() {
+      window.history.back();
     }
   },
   created() {
